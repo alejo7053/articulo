@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.1)  10 NOV 2018 01:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.1)  10 NOV 2018 12:02
 entering extended mode
 **./bare_jrnl.tex
 (bare_jrnl.tex
@@ -512,12 +512,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 9--10
-\OT1/ptm/m/n/10 firm-wa-re y soft-wa-re. El hard-wa-re cuen-ta con m[]ulti-ples
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
@@ -551,40 +545,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 ]
 
-LaTeX Warning: Citation `Hero' on page 2 undefined on input line 15.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-
-LaTeX Warning: Citation `Lara' on page 2 undefined on input line 22.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-
-LaTeX Warning: Citation `JSON' on page 2 undefined on input line 26.
+LaTeX Warning: Citation `JSON' on page 2 undefined on input line 15.
 
 
 LaTeX Warning: Reference `fig:esp32-wroom-s32-00' on page 2 undefined on input 
-line 32.
+line 21.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
 
-LaTeX Warning: Citation `EW32' on page 2 undefined on input line 34.
+LaTeX Warning: Citation `EW32' on page 2 undefined on input line 23.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+LaTeX Warning: Reference `fig:triacgraph' on page 2 undefined on input line 34.
+
+
+
+LaTeX Warning: Citation `CEKIT' on page 2 undefined on input line 34.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
@@ -592,39 +577,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
  []
 
 
-LaTeX Warning: Reference `fig:triacgraph' on page 2 undefined on input line 45.
-
-
-
-LaTeX Warning: Citation `CEKIT' on page 2 undefined on input line 45.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-
- []
-
-
 LaTeX Warning: Reference `fig:pwm-duty-800x396' on page 2 undefined on input li
-ne 57.
+ne 46.
 
 
-LaTeX Warning: Citation `PWM' on page 2 undefined on input line 57.
+LaTeX Warning: Citation `PWM' on page 2 undefined on input line 46.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-
- []
-
-
-LaTeX Warning: Citation `SO' on page 2 undefined on input line 72.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-
- []
-
-
-LaTeX Warning: Citation `ES' on page 2 undefined on input line 76.
+LaTeX Warning: Citation `ES' on page 2 undefined on input line 59.
 
 ) (Desarrollo.tex
 
@@ -635,7 +595,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-[2]
+
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
@@ -666,7 +626,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
@@ -729,9 +689,6 @@ LaTeX Warning: Reference `fig:L293D' on page 3 undefined on input line 111.
 LaTeX Warning: Reference `fig:CDC' on page 3 undefined on input line 111.
 
 
-LaTeX Warning: Citation `IRL' on page 3 undefined on input line 111.
-
-
 Underfull \hbox (badness 2020) in paragraph at lines 111--112
  []\OT1/ptm/m/it/10 3b. Eta-pa DC: [][] \OT1/ptm/m/n/10 es-ta eta-pa cuen-ta co
 n cua-tro
@@ -755,25 +712,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
-[3]
 
-LaTeX Warning: Citation `LM386' on page 4 undefined on input line 139.
-
-
-LaTeX Warning: Reference `fig:AUD' on page 4 undefined on input line 139.
+LaTeX Warning: Reference `fig:AUD' on page 3 undefined on input line 139.
 
 
-LaTeX Warning: Citation `ES' on page 4 undefined on input line 151.
+LaTeX Warning: Citation `ES' on page 3 undefined on input line 151.
 
 
-LaTeX Warning: Reference `fig:what-you-need' on page 4 undefined on input line 
+LaTeX Warning: Reference `fig:what-you-need' on page 3 undefined on input line 
 151.
 
 
-LaTeX Warning: Citation `MVC1' on page 4 undefined on input line 162.
+LaTeX Warning: Citation `MVC1' on page 3 undefined on input line 162.
 
 
-LaTeX Warning: Reference `fig:mvc' on page 4 undefined on input line 162.
+LaTeX Warning: Reference `fig:mvc' on page 3 undefined on input line 162.
 
 
 Underfull \hbox (badness 1953) in paragraph at lines 162--163
@@ -787,11 +740,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--163
  []
 
 
-LaTeX Warning: Reference `fig:orm' on page 4 undefined on input line 171.
+LaTeX Warning: Reference `fig:orm' on page 3 undefined on input line 171.
 
 
-LaTeX Warning: Citation `Eloq' on page 4 undefined on input line 171.
+LaTeX Warning: Citation `Eloq' on page 3 undefined on input line 171.
 
+[3]
 
 LaTeX Warning: Citation `PB' on page 4 undefined on input line 182.
 
@@ -838,37 +792,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+LaTeX Warning: Reference `fig:publicview' on page 4 undefined on input line 42.
+
+
+
+LaTeX Warning: Reference `fig:views' on page 4 undefined on input line 53.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
-
-
-LaTeX Warning: Reference `fig:publicview' on page 4 undefined on input line 44.
-
 
 
 LaTeX Warning: Reference `fig:views' on page 4 undefined on input line 55.
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 55--56
- []\OT1/ptm/m/it/10 2. Par-te Pri-va-da: [][] \OT1/ptm/m/n/10 En es-ta sec-ci[]
-on es don-de se
- []
-
-
-Underfull \hbox (badness 4108) in paragraph at lines 55--56
-\OT1/ptm/m/n/10 ad-mi-nis-tra-dor, el cual es-ta en-car-ga-do de ges-tio-nar la
-
- []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-[4]
 
-LaTeX Warning: Reference `fig:views' on page 5 undefined on input line 57.
+LaTeX Warning: Reference `fig:views' on page 4 undefined on input line 57.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 57--58
@@ -876,32 +820,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
  []
 
 
-LaTeX Warning: Reference `fig:views' on page 5 undefined on input line 59.
+LaTeX Warning: Reference `fig:updateview' on page 4 undefined on input line 68.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
- []
-
-
-LaTeX Warning: Reference `fig:views' on page 5 undefined on input line 61.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
 
-LaTeX Warning: Reference `fig:updateview' on page 5 undefined on input line 72.
+LaTeX Warning: Reference `fig:views' on page 4 undefined on input line 77.
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+ []
+
+[4]
+Underfull \hbox (badness 1496) in paragraph at lines 79--80
+[]\OT1/ptm/m/n/10 Si el ven-ti-la-dor es-ta co-nec-ta-do a una sa-li-da de AC
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 
-LaTeX Warning: Reference `fig:views' on page 5 undefined on input line 81.
+LaTeX Warning: Reference `fig:rulesview' on page 5 undefined on input line 81.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 81--82
@@ -909,35 +855,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--82
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 83--84
-[]\OT1/ptm/m/n/10 Si el ven-ti-la-dor es-ta co-nec-ta-do a una sa-li-da de AC
- []
+LaTeX Warning: Reference `fig:db' on page 5 undefined on input line 92.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
 
-LaTeX Warning: Reference `fig:rulesview' on page 5 undefined on input line 85.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-
- []
-
-
-LaTeX Warning: Reference `fig:db' on page 5 undefined on input line 96.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-
- []
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 105--106
+Underfull \hbox (badness 1394) in paragraph at lines 101--102
 []\OT1/ptm/m/n/10 Esta sec-ci[]on don-de se pre-sen-tan to-dos los re-sul-ta-do
 s
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 105--106
+[]\OT1/ptm/m/n/10 En cuan-to a la pro-tec-ci[]on de la apli-ca-ci[]on se han
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 105--106
+\OT1/ptm/m/n/10 del middl-wa-re pre-sen-te en es-ta so-lu-ci[]on, pe-ro tam-bi[
+]en
  []
 
 
@@ -946,19 +895,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--106
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
-
- []
-
-[5]
-Underfull \hbox (badness 2285) in paragraph at lines 109--110
-[]\OT1/ptm/m/n/10 En cuan-to a la pro-tec-ci[]on de la apli-ca-ci[]on se han
- []
+LaTeX Warning: Reference `fig:tareas' on page 5 undefined on input line 109.
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 109--110
-\OT1/ptm/m/n/10 del middl-wa-re pre-sen-te en es-ta so-lu-ci[]on, pe-ro tam-bi[
-]en
+Underfull \hbox (badness 5345) in paragraph at lines 109--110
+[]\OT1/ptm/m/n/10 El firm-wa-re se en-cuen-tra com-pues-to, co-mo se ha
  []
 
 
@@ -967,138 +908,130 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--110
  []
 
 
-LaTeX Warning: Reference `fig:tareas' on page 6 undefined on input line 113.
-
-
-Underfull \hbox (badness 5345) in paragraph at lines 113--114
-[]\OT1/ptm/m/n/10 El firm-wa-re se en-cuen-tra com-pues-to, co-mo se ha
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+LaTeX Warning: Reference `fig:conexion' on page 5 undefined on input line 124.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
+[5]
 
-LaTeX Warning: Reference `fig:conexion' on page 6 undefined on input line 128.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-
- []
+LaTeX Warning: Reference `fig:wifi' on page 6 undefined on input line 134.
 
 
-LaTeX Warning: Reference `fig:wifi' on page 6 undefined on input line 138.
+LaTeX Warning: Reference `fig:wifi' on page 6 undefined on input line 134.
 
 
-LaTeX Warning: Reference `fig:wifi' on page 6 undefined on input line 138.
+LaTeX Warning: Reference `fig:wifi' on page 6 undefined on input line 134.
 
 
-LaTeX Warning: Reference `fig:wifi' on page 6 undefined on input line 138.
+LaTeX Warning: Reference `fig:json' on page 6 undefined on input line 148.
 
 
-LaTeX Warning: Reference `fig:json' on page 6 undefined on input line 152.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
  []\OT1/ptm/m/it/10 3. Lec-tu-ra de Da-tos de In-ter-net: [][] \OT1/ptm/m/n/10 
 Pa-ra la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
-[6]
 
-LaTeX Warning: Reference `fig:httprqstesp' on page 7 undefined on input line 16
-6.
+LaTeX Warning: Reference `fig:httprqstesp' on page 6 undefined on input line 16
+2.
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 166--167
+Underfull \hbox (badness 1783) in paragraph at lines 162--163
 \OT1/ptm/m/n/10 que con-tro-la la tar-je-ta, es-ta los re-ci-be en una ca-de-na
 
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 166--167
+Underfull \hbox (badness 1635) in paragraph at lines 162--163
 \OT1/ptm/m/n/10 tex-to en for-ma-to JSON co-mo se ob-ser-va en la fi-gu-ra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 
-LaTeX Warning: Reference `fig:tarjeta' on page 7 undefined on input line 183.
+LaTeX Warning: Reference `fig:tarjeta' on page 6 undefined on input line 179.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
-
- []
-
-
-LaTeX Warning: Reference `fig:labels' on page 7 undefined on input line 193.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
 
-LaTeX Warning: Reference `fig:ACc' on page 7 undefined on input line 203.
+LaTeX Warning: Reference `fig:labels' on page 6 undefined on input line 189.
 
 
-LaTeX Warning: Reference `fig:ACc' on page 7 undefined on input line 203.
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+ []
 
 
-LaTeX Warning: Reference `fig:DCc' on page 7 undefined on input line 213.
+LaTeX Warning: Reference `fig:ACc' on page 6 undefined on input line 199.
 
 
-LaTeX Warning: Reference `fig:DCc' on page 7 undefined on input line 213.
+LaTeX Warning: Reference `fig:ACc' on page 6 undefined on input line 199.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+LaTeX Warning: Reference `fig:DCc' on page 6 undefined on input line 209.
+
+
+LaTeX Warning: Reference `fig:DCc' on page 6 undefined on input line 209.
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 []\OT1/ptm/m/n/10 En es-ta sec-ci[]on se evi-den-cia tan-to el hard-wa-re
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 \OT1/ptm/m/n/10 im-ple-men-ta-do, co-mo su co-rrec-to fun-cio-na-mien-to de
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 223--224
+Underfull \hbox (badness 5274) in paragraph at lines 219--220
 \OT1/ptm/m/n/10 acuer-do con los re-qui-si-tos pro-pues-tos. Pro-por-cio-nan-do
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 225--226
+Underfull \hbox (badness 1783) in paragraph at lines 221--222
 \OT1/ptm/m/n/10 di-fe-ren-tes ele-men-tos uti-li-za-dos, si se usan com-po-nen-
 tes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+
  []
 
 
@@ -1107,57 +1040,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--226
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
-
- []
+LaTeX Warning: Citation `lik' on page 7 undefined on input line 227.
 
 
-LaTeX Warning: Citation `lik' on page 7 undefined on input line 231.
+LaTeX Warning: Reference `AnexoB' on page 7 undefined on input line 227.
 
 
-LaTeX Warning: Reference `AnexoB' on page 7 undefined on input line 231.
-
-
-Underfull \hbox (badness 1694) in paragraph at lines 231--232
+Underfull \hbox (badness 1694) in paragraph at lines 227--228
 \OT1/ptm/m/n/10 pa-ra evi-den-ciar la pos-tu-ra del clien-te en cuan-to a las
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
 
-LaTeX Warning: Reference `AnexoC' on page 7 undefined on input line 233.
+LaTeX Warning: Reference `AnexoC' on page 7 undefined on input line 229.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
 
  []
 
-[7]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 239.
+(Font)              <8> on input line 235.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 239.
+(Font)              <6> on input line 235.
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
+
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 265--266
+[]\OT1/ptm/m/n/10 Asimismo, la in-ter-faz que se pro-vee pa-ra rea-li-zar la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 267--268
+[]\OT1/ptm/m/n/10 Adem[]as, em ca-so de que la red Wi-Fi cam-bie sus
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 269--270
-[]\OT1/ptm/m/n/10 Asimismo, la in-ter-faz que se pro-vee pa-ra rea-li-zar la
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 269--270
 
- []
-
-
-Underfull \hbox (badness 1924) in paragraph at lines 271--272
-[]\OT1/ptm/m/n/10 Adem[]as, em ca-so de que la red Wi-Fi cam-bie sus
  []
 
 
@@ -1175,7 +1112,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
-
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
@@ -1185,18 +1122,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 279--280
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
-
- []
-
 ) (Conclusiones.tex
-Underfull \hbox (badness 10000) in paragraph at lines 285--1
+Underfull \hbox (badness 10000) in paragraph at lines 281--1
 
  []
 
@@ -1210,7 +1137,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-[8]
+
 Underfull \hbox (badness 4429) in paragraph at lines 6--7
 []\OT1/ptm/m/n/10 El hard-wa-re im-ple-men-ta-do pa-ra la so-lu-ci[]on IoT,
  []
@@ -1270,7 +1197,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-
+[8]
 Underfull \hbox (badness 6691) in paragraph at lines 16--17
 \OT1/ptm/m/n/10 con-tro-lar las di-fe-ren-tes car-gas pre-sen-tes en una
  []
@@ -1311,9 +1238,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--494
 
  []
 
-[9] [10
-
-] (bare_jrnl.aux
+[9] (bare_jrnl.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
@@ -1322,10 +1247,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2365 strings out of 493312
- 35032 string characters out of 3138897
+ 2360 strings out of 493312
+ 35004 string characters out of 3138897
  113480 words of memory out of 3000000
- 5915 multiletter control sequences out of 15000+200000
+ 5910 multiletter control sequences out of 15000+200000
  44811 words of font info for 79 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  27i,8n,30p,1221b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1334,9 +1259,9 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_jrnl.pdf (10 pages, 122888 bytes).
+Output written on bare_jrnl.pdf (9 pages, 119335 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
+ 53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
