@@ -22,35 +22,35 @@ Es un potente módulo MCU Wi-Fi + BT + BLE que se dirige a una amplia variedad d
 
 El sistema operativo elegido para ESP32 es freeRTOS con LwIP; TLS 1.2 con aceleración de hardware está integrado también, además se admite la actualización segura (cifrada) a través del aire (OTA), de modo que los desarrolladores puedan actualizar continuamente sus productos incluso después de su lanzamiento.\cite{EW32}\\
 
-%\begin{figure}[H]
-%	\centering
-%	\caption{ESP WROOM 32. Tomado de: \cite{ESPIMG}}
-%	\label{fig:esp32-wroom-s32-00}
-%	\includegraphics{Imagenes/esp32-wroom-s32-00}
-%\end{figure}
+\begin{figure}[!t]
+	\centering
+	\caption{ESP WROOM 32. Tomado de: \cite{ESPIMG}}
+	\label{fig:esp32-wroom-s32-00}
+	\includegraphics[width=0.6\linewidth]{Imagenes/esp32-wroom-s32-00}
+\end{figure}
 
 \subsubsection{Control de potencia AC por ángulo de fase}
 
 ``Los SCR y los TRIAC, permiten aplicar una técnica muy conveniente y eficaz para controlar el voltaje promedio y por lo tanto la potencia aplicada a una carga, cambiando el ángulo de fase con el cual la fuente de voltaje se aplica a ésta, tal como se muestra en la figura \ref{fig:triacgraph}. Esta técnica de control de voltaje es muy usada en las aplicaciones de regulación de motores, iluminación y temperatura, por ser el voltaje la variable principal en estos tres procesos''.\cite{CEKIT}\\
 
 
-%\begin{figure}[H]
-%	\centering
-%	\caption{Representación gráfica del ángulo de disparo y de conducción del TRIAC y de la carga. Tomado de: \cite{CEKIT}.}
-%	\label{fig:triacgraph}
-%	\includegraphics[width=0.3\linewidth]{Imagenes/TRIAC_graph}
-%\end{figure}
+\begin{figure}[!t]
+	\centering
+	\caption{Representación gráfica del ángulo de disparo y de conducción del TRIAC y de la carga. Tomado de: \cite{CEKIT}.}
+	\label{fig:triacgraph}
+	\includegraphics[width=0.4\linewidth]{Imagenes/TRIAC_graph}
+\end{figure}
 
 \subsubsection{Control de Cargas DC}
 
 Los transistores como switch permiten controlar las cargas de corriente continua típicas como los motores y LED's, a parte de poder funcionar en dos estados, encendido y apagado Este control se da mediante la modulación por ancho de pulso (PWM), ya que al variar el ancho de pulso de la señal eléctrica se modifica la cantidad de energía entregada a la carga, tal como se muestra en la figura \ref{fig:pwm-duty-800x396}. \cite{PWM}\\
 
-%\begin{figure}[H]
-%	\centering
-%	\caption{Ciclo Útil PWM. [Imagen Propia] }
-%	\label{fig:pwm-duty-800x396}
-%	\includegraphics[width=0.5\linewidth]{Imagenes/pwm}
-%\end{figure}
+\begin{figure}[!t]
+	\centering
+	\caption{Ciclo Útil PWM. [Imagen Propia] }
+	\label{fig:pwm-duty-800x396}
+	\includegraphics[width=0.6\linewidth]{Imagenes/pwm}
+\end{figure}
 
 \subsection{Software}
 

@@ -113,7 +113,8 @@
 % *** GRAPHICS RELATED PACKAGES ***
 %
 \ifCLASSINFOpdf
-  % \usepackage[pdftex]{graphicx}
+   \usepackage[pdftex]{graphicx}
+   \usepackage{subfigure} 
   % declare the path(s) where your graphic files are
   % \graphicspath{{../pdf/}{../jpeg/}}
   % and their extensions so you won't have to specify these with
@@ -435,7 +436,7 @@
 % As a general rule, do not put math, special symbols or citations
 % in the abstract or keywords.
 \begin{abstract}
- Este documento detalla el desarrollo e implementación de un sistema de monitoreo y control para una habitación en un entorno de Smart House basado en el chip ESP32, el cual está diseñado con un enfoque hacia aplicaciones que usan el paradigma de Internet de las cosas (IoT). La tarjeta permite la conexión de diferentes dispositivos, por medio del diseño de diversors circuitos para su adecuación y correcto funcionamiento; en el presente caso, se utilizan sensores que miden magnitudes y características comunes en dicho ambiente, como lo son, movimiento, temperatura, luminosidad, entre otros.La etapa de control tiene salidas de corriente alterna (AC) y corriente directa (DC), con la posibilidad de variar la energía entregada a esta o simplemente encender y apagar. En cuanto a la visualización de los datos obtenidos de los sensores y la interacción del usuario con los distintos elementos conectados a la tarjeta, se desarrolla una aplicación web implementada en Laravel, framework de desarrollo de aplicaciones web que utiliza PHP, que funciona a través de Heroku, una plataforma como servicio (PaaS), que proporciona toda la infraestructura necesaria para su operación.\\
+ Este documento detalla el desarrollo e implementación de un sistema de monitoreo y control para una habitación en un entorno de Smart House basado en el chip ESP32, el cual está diseñado con un enfoque hacia aplicaciones que usan el paradigma de Internet de las cosas (IoT). La tarjeta permite la conexión de diferentes dispositivos, por medio del diseño de diversors circuitos para su adecuación y correcto funcionamiento; en el presente caso, se utilizan sensores que miden magnitudes y características comunes en dicho ambiente, como lo son, movimiento, temperatura, luminosidad, entre otros.La etapa de control tiene salidas de corriente alterna (AC) y corriente directa (DC), con la posibilidad de variar la energía entregada a esta o simplemente encender y apagar. En cuanto a la visualización de los datos obtenidos de los sensores y la interacción del usuario con los distintos elementos conectados a la tarjeta, se desarrolla una aplicación web implementada en Laravel, framework de desarrollo de aplicaciones web que utiliza PHP, que funciona a través de Heroku, una plataforma como servicio (PaaS), que proporciona toda la infraestructura necesaria para su operación. El desempeño del sistema es comprobado con usuarios finales a través de los diferentes ítems de una prueba Beta propuesta.\\
 \end{abstract}
 
 % Note that keywords are not normally used for peerreview papers.
@@ -666,9 +667,61 @@ ESP32, Internet de las Cosas, Smart House.
 % (used to reserve space for the reference number labels box)
 \begin{thebibliography}{1}
 
-\bibitem{IEEEhowto:kopka}
-H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
-  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+%\bibitem{IEEEhowto:kopka}
+%H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip %1em plus
+  %0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+  
+  \bibitem{Behan2013}
+  Miroslav Behan and Ondrej Krejcar, \emph{Vision of Smart Home Point Solution as Sustainable Intelligent House Concept}, 2013.
+  
+  \bibitem{Cheuque2015}
+  	César Cheuque and Felipe Baeza and Gastón Márquez and Juan Calderón, \emph{Towards to responsive Web Services for Smart Home LED control with Raspberry Pi. A first approach}, 2015.
+  	
+	\bibitem{Kusriyanto2015}
+  	Medilla Kusriyanto and Beny Setiawan, \emph{Android Smart Home System Based on ATmega16}, 2015.
+  	
+  	\bibitem{Kaneko2017}
+  	Masayuki Kaneko and Kazuki Arima and Takashi Murakami and Masao Isshiki and Hiroshi Sugimura, \emph{Design and Implementation of Interactive Control System for Smart Houses}, 2017.
+  	
+  	\bibitem{Asthon2009}
+  	Kevin Ashton, \emph{That 'Internet of Things' Thing}, 2009.
+  	
+  	\bibitem{JSON}
+  	JSON.org, \emph{Introducción a JSON}. 
+  	
+  	\bibitem{EW32}
+  	Espressif Systems, \emph{ESP-WROOM-32 Datasheet}, 2018.
+  	
+  	\bibitem{ESPIMG}
+  	Electrodragon, \emph{ESP-WROOM-32}.
+  
+  	\bibitem{CEKIT}
+  	CEKIT, \emph{Curso práctico de Electrónica Inductrial y Automatización}, 2001.
+  	
+  	\bibitem{PWM}
+  	Enrique Gómez, \emph{Qué es PWM y para qué sirve}, 2017.
+  	
+  	\bibitem{ES}
+  	Espressif Systems, \emph{ESP-IDF Programming Guide}.
+  	
+  	\bibitem{DC0}
+  	platea pntic, \emph{DISPARADORES DE SCHMITT}.
+  	
+  	\bibitem{LM386}
+  	Texas Instrument, \emph{LM386 Low Voltage Audio Power Amplifier}.
+  	
+  	\bibitem{MVC1}
+  	Juan Pavón Mestras, \emph{Estructura de las Aplicaciones Orientadas a Objetos
+  		El patrón Modelo-Vista-Controlador (MVC)}, 2009.
+  	
+  	\bibitem{Eloq}
+  	Richos, \emph{Libro Laravel 5 Conceptos básicos y ejemplos}, 2016.  	
+  	
+  	\bibitem{PB}
+  	Universidad de Sevilla, \emph{Técnicas de evluación	Dinámica}.
+  	
+  	\bibitem{lik}
+  	BPO Centro de Comercio, \emph{LA ESCALA DE LIKERT: QUÉ ES Y CÓMO UTILIZARLA}, 2016.
 
 \end{thebibliography}
 

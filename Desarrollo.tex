@@ -3,12 +3,12 @@
 
 El prototipo para Smart House está equipado con etapas de potencia de corriente alterna y directa, etapa de adquisición de datos, entre otras características que permitan cumplir con los objetivos planteados. Este fue Diseñado en el software Proteus, desde el esquemático hasta la placa de circuito impreso (PCB), en la figura \ref{fig:esp32} se observa un breve esquema del hardware, mostrando las caracteristicas mas relevantes que lo componen. El prototipo está separado en dos secciones, la etapa de potencia AC y la etapa DC, en la última, se encuentra la mayor parte de circuitos que funcionan con corriente directa.\\
 
-%\begin{figure}[H]
-%	\centering
-%	\caption{ESP32 creado en proteus [Imagen Propia]}
-%	\includegraphics[width=0.5\linewidth]{Imagenes/ESP32}	
-%	\label{fig:esp32}
-%\end{figure}
+\begin{figure}[!t]
+	\centering
+	\caption{ESP32 creado en proteus [Imagen Propia]}
+	\includegraphics[width=0.9\linewidth]{Imagenes/ESP32}	
+	\label{fig:esp32}
+\end{figure}
 
 En los siguientes ítems se resaltaran las características más importantes que lleva el circuito:\\
 
@@ -48,32 +48,32 @@ En los siguientes ítems se resaltaran las características más importantes que
 
 El firmware se desarrolla sobre el framework o SDK oficial de Espressif Systems, ESP-IDF el cual posee una documentación \cite{ES} muy útil a la hora de utilizar las diferentes APIs presentes en este; para el desarrollo de la aplicación es necesario contar con los requisitos que se observan en la figura \ref{fig:what-you-need}. El framework incluye un kernel de tiempo real llamado FreeRTOS, el cual da soporte al manejo de los diversos recursos del sistema; al ser un RTOS, las funciones se definen mediante tareas, entonces cada funcionalidad de la tarjeta o grupo de funcionalidades se desarrolla en una o varias tareas que realicen las acciones adecuadas.\\
 
-%\begin{figure}[H]
-%	\centering
-%	\caption{ESP-IDF. Tomado de: \cite{ES}}
-%	\label{fig:what-you-need}
-%	\includegraphics[width=0.5\linewidth]{Imagenes/what-you-need}
-%\end{figure}
+\begin{figure}[!t]
+	\centering
+	\caption{ESP-IDF. Tomado de: \cite{ES}}
+	\label{fig:what-you-need}
+	\includegraphics[width=0.7\linewidth]{Imagenes/what-you-need}
+\end{figure}
 
 \subsection{Software}
 
 En esta sección se desarrolla una aplicación web, la cual se encarga de ejecutar la gestión entre el usuario y la tarjeta. De este modo, se usa un patrón de arquitectura Modelo-Vista-Controlador (MVC). Aquel modelo es realmente útil ya que separa la lógica de negocio de la interfaz de usuario, incrementando la reutilización y flexibilidad, además la escalabilidad de ambos aspectos por separado, dicho esto la aplicación cuenta con diferentes modelos, controladores y vistas \cite{MVC1}. La función de cada parte de esta arquitectura se puede observar en la figura \ref{fig:mvc}.\\
 
-%\begin{figure}[H]
-%	\centering
-%	\caption{Modelo-Vista-Controlador [Imagen Propia]}
-%	\label{fig:mvc}
-%	\includegraphics[width=0.7\linewidth]{Imagenes/MVC}
-%\end{figure}
+\begin{figure}[!t]
+	\centering
+	\caption{Modelo-Vista-Controlador [Imagen Propia]}
+	\label{fig:mvc}
+	\includegraphics[width=0.8\linewidth]{Imagenes/MVC}
+\end{figure}
 
 Además, con este framework se hace uso de un ORM (Mapeo Objeto-Relacional) llamado Eloquent. Esta es una forma de mapear los datos que se encuentran en la base de datos a objetos de PHP y viceversa, esto facilita el uso de diferentes gestores de bases de datos como MySQL, SQLite, entre otras, ya que todas las consultas estan en PHP y el ORM ya se encarga del mapeo a los comandos SQL como se observa en la figura \ref{fig:orm}. Eloquent usa los modelos para enviar y recibir información de la base de datos\cite{Eloq}.\\
 
-%\begin{figure}[H]
-%	\centering
-%	\caption[ORM]{ORM [Imagen Propia]}
-%	\label{fig:orm}
-%	\includegraphics[width=0.7\linewidth]{Imagenes/ORM}
-%\end{figure}
+\begin{figure}[!t]
+	\centering
+	\caption[ORM]{ORM [Imagen Propia]}
+	\label{fig:orm}
+	\includegraphics[width=0.9\linewidth]{Imagenes/ORM}
+\end{figure}
 
 \subsection{Prueba Beta}
 
