@@ -20,9 +20,7 @@ En los siguientes ítems se resaltaran las características más importantes que
 	\paragraph{Sensores}
 		El prototipo viene equipado con una etapa de adquisición de datos con capacidad entre 7 a 134 sensores, pues posee una entrada I2C, ampliando el número de dispositivos conectados, lo cual también permitiría adicionar tareas más específicas en escenarios que lo requieran. Estas entradas están diñadas para funcionar al mismo nivel lógico que el ESP32, no obstante, en algunas de ellas es posible seleccionar el voltaje de alimentación de 3.3 o 5V dependiendo del dispositivo.\\
 		
-		Presionando el botón enable se reinicia la tarjeta ESP32, junto con su firmware.\\
-		
-		Presionando el botón reset se borran las credenciales ingresadas para la conexión del ESP32 a la red wifi.\\
+		Además posee dos botones, presionando el botón enable se reinicia la tarjeta ESP32, junto con su firmware y presionando el botón reset se borran las credenciales ingresadas para la conexión del ESP32 a la red wifi.\\
 	
 		
 	\subsubsection{Salidas:}
@@ -31,7 +29,7 @@ En los siguientes ítems se resaltaran las características más importantes que
 	
 		Las dos cargas restantes corresponden a un sistema de encendido y apagado, cuyo funcionamiento se basa en un relevador SRA-05VDC-CL activado a 5V, gracias a este, las salidas tienen capacidad de hasta 200W cada una. Para proteger el ESP32 el prototipo se vale de ese dispositivo, puesto que presenta un aislamiento magnético por la naturaleza de su operación.\\
 			
-		Dentro de la etapa AC se encuentra el detector de cruce por cero, el cual se vale de un fototransistor 4N25, debido a su alta capacidad de aislamiento, rectificando de manera completa la onda proveniente de la red eléctrica y pasándola a un nivel lógico de 3.3V; para que esta señal sea más confiable, se hace uso de un Schmitt-Trigger CD40106, el cual se vale de la histéresis de voltaje garantizando que la señal de salida sea poco susceptible al ruido \cite{DC0}.\\
+		Dentro de la etapa AC se encuentra el detector de cruce por cero, el cual se vale de un fototransistor 4N25, debido a su alta capacidad de aislamiento, tomando la onda rectificada completa y pasándola a un nivel lógico de 3.3V; para que esta señal sea más confiable, se hace uso de un Schmitt-Trigger CD40106, el cual se vale de la histéresis de voltaje garantizando que la señal de salida sea poco susceptible al ruido \cite{DC0}.\\
 	
 	\paragraph{Etapa DC}
 		Esta etapa cuenta con cuatro salidas de control diseñadas para cargas de 12V, de las cuales, dos de ellas tienen un enfoque a motores, puesto que está equipada con control de velocidad a base de PWM e inversión de giro con un puente h usando transistores mosfet IRLZ44N; el puente h se encuentra controlado por un circuito integrado L293D, que garantiza un voltaje Vgs adecuado para la correcta activación de los transistores del puente h.\\
